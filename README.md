@@ -1,8 +1,7 @@
-# Tantomi Resume Parser API
+# Resume Parser API
 
 An AI-powered REST API that extracts technical skills and proficiency levels
-from uploaded resume PDFs, built as the backend service for the Tantomi
-skill progress tracking application.
+from uploaded resume PDFs.
 
 ## Overview
 
@@ -46,8 +45,8 @@ This API provides an end-to-end resume parsing pipeline for:
 {
   "skills": ["Python", "scikit-learn", "SQL", "React", "Firebase"],
   "skill_levels": {
-    "Python": "some experience",
-    "scikit-learn": "some experience",
+    "Python": "intermediate",
+    "scikit-learn": "intermediate",
     "SQL": "beginner",
     "React": "beginner",
     "Firebase": "beginner"
